@@ -1,0 +1,28 @@
+* Assembler tutorials
+
+** Why
+   I'm just running through some asm tutorials. I'm going to put code
+   and links here, just because.
+
+** nasmx macros
+   https://sourceforge.net/projects/nasmx/
+** syscall table
+   https://github.com/torvalds/linux/blob/master/arch/x86/entry/syscalls/syscall_64.tbl
+
+** tutorials
+   - https://github.com/0xAX/asm/blob/master/README.md
+   - http://cs.lmu.edu/~ray/notes/nasmtutorial/
+   - https://radare.gitbooks.io/radare2book/content/introduction/basic_debugger_session.html
+
+
+** Story
+   These are some codes I'm doing with assembler as a way to remember
+   and relearn some of its basics.
+
+   I've followed some tutorials here and there, and then moved to
+   experiment a bit with nasmx, which lifts assembler a bit towards a
+   higher level language.
+
+   - macros.asm is the file whic contains nasmx features.
+
+   To debug these programs I started using [[http://rada.re/r/][radare's]] low level [[https://radare.gitbooks.io/radare2book/content/introduction/basic_debugger_session.html][debugger]]
